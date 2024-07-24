@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 18%, rgba(0,212,255,1) 100%);
+}
+.box{
+    /* background-image:url("aquamarine-background-border-yn6r5siv0v01hwu9.jpg");
+     */
+    padding-top:80px;
+    padding-bottom:80px;
+    background-size: cover;
+}
+.box1{
+      height:280px;
+      width:320px;
+      box-shadow:4px 6px 8px 10px rgba(0, 0, 0, 0.18);
+      margin-left:470px;
+      margin-top:-50px;
+      padding-bottom:200px;
+      background-color:white;
+      border-radius:8px;
+      align-items: center;
+}
+h1{
+    margin-left:110px;
+    padding-top:25px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+label{
+    margin-left:15px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+input[type=text]{
+    width: 80%;
+    padding-top:20px;
+    padding: right -20%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(40, 31, 31);
+    margin-left: 10px;
+}
+input[type=password]{
+    width: 80%;
+    padding-top:20px;
+    padding: right -20%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(40, 31, 31);
+    margin-left: 10px;
+}
+input[type=submit]{
+    margin-left:40px;
+    padding-left:90px;
+    padding-right:110px;
+    border-radius: 20px 20px;
+    color:white;
+    background-color:cornflowerblue;
+    padding-top:8px;
+    padding-bottom:8px;
+    cursor:pointer;
+}
+p{
+    text-align:center;
+    font-size:small;
+}
+.box1 .logo{
+    margin-left: 100px;
+}
+.sign h4{
+    margin-left: 139px;
+}

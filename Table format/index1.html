@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class timetable</title>
+</head>
+<style>
+    table,th,td{
+        border:1px solid black;
+        border-collapse:collapse;
+    }
+</style>
+<body>
+    <table>
+        <tr>
+            <th>date/period</th>
+            <th>9:30-10:20</th>
+            <th>10:20-11:10</th>
+            <th>11:10-12:00</th>
+            <th>12:00-12:40</th>
+            <th>12:40-1:30</th>
+            <th>1:30-2:20</th>
+            <th>2:20-3:10</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Eng</td>
+            <td>Mat</td>
+            <td>chem</td>
+            <td rowspan=6>lunch</td>
+            <td colaspan=3>lab</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td colspan=3>lab</td>
+            <td>Eng</td>
+            <td>Chem</td>
+            <td>Math</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>Math</td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Chem</td>
+            <td colspan=2>LIBRARY</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Chem</td>
+            <td colspan=3>LAB</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td colspan=3>LAB</td>
+            <td>Math</td>
+            <td>Chem</td>
+            <td>Eng</td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>Eng</td>
+            <td>Chem</td>
+            <td>Math</td>
+            <td colspan=3>SEMINAR</td>
+        </tr>
+    </table>
+</body>
+</html>

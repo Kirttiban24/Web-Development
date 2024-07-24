@@ -1,0 +1,82 @@
+.navbar{
+    height:110px;
+    width:100%;
+    background-color:bisque;
+    display:flex;
+}
+.sun{
+    height:75px;
+    width:120px;
+    margin-left:65px;
+    margin-top:5px;
+}
+.gp{
+    margin-left:-100px;
+    margin-top:79px;
+    color:#F2C430;
+}
+.navbar .nav-menu{
+    display:flex;
+    margin-left:410px;
+    margin-top:80px; 
+    align-content: end;
+    display: inline-block;
+    font-weight:bold;
+    font-size:larger;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family:bolder;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;     
+}
+.box{
+    background-color:grey;
+    height:610px;
+}
+.box1 .electrician{
+    height:610px;
+    width:800px;
+    margin-left:465px;
+    position:relative;
+}
+ .box2{
+    height:240px;
+    width:480px;
+    border:1px solid black;
+    margin-left:80px;
+    margin-top:-440px;
+    position:absolute;
+    background-color:lightgrey;
+}
+.box2 .text{
+    margin-left:60px;
+    margin-top:30px;
+    color:#df923a;
+    font-size:30px;
+    font-weight:bold;
+    font-family:sans-serif;
+}
+.box2 .text1{
+    margin-left:60px;
+    color:#1e407d;
+    font-size:25px;
+    font-weight:bold;
+    font-family:sans-serif;
+}
+.service{
+    margin-left:80px;
+    margin-top:-30px;
+    padding-right:40px;
+    padding-left:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: center;
+    background-color:#feac32;
+    border-radius:8px;
+}
+.service .hover{
+    background-color:grey;
+}
